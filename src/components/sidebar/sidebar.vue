@@ -1,15 +1,16 @@
 <template>
   <!-- sidenav  -->
+  <section class="bg-slate-50">
   <aside
-    class="max-w-62.5 bg-red-400 ease-nav-brand z-990 fixed inset-y-0 my-4 ml-1 block w-full -translate-x-full flex-wrap items-center justify-between  overflow-hidden rounded-2xl border-0  p-0 antialiased shadow-none transition-transform  duration-200 xl:left-0 xl:translate-x-0 xl:bg-transparent"
+    class="max-w-62.5 ease-nav-brand bg-slate-50 z-990 fixed inset-y-0 my-4 ml-4 block w-full -translate-x-full flex-wrap items-center justify-between overflow-y-auto rounded-2xl border-0  p-0 antialiased shadow-none transition-transform duration-200 xl:left-0 xl:translate-x-0 xl:bg-transparent"
   >
-    <div class="h-16">
+    <div class="h-16 bg-slate-50">
       <i
-        class="absolute top-0 right-0 hidden p-4 opacity-50 cursor-pointer fas fa-times text-slate-400 xl:hidden"
+        class="absolute top-0 right-0 hidden p-4 opacity-50 bg-transparent cursor-pointer fas fa-times text-slate-400 xl:hidden"
         sidenav-close
       ></i>
       <a
-        class="block px-8 py-6 m-0 text-sm whitespace-nowrap text-slate-700"
+        class="block bg-slate-50 px-8 py-6 m-0 text-sm whitespace-nowrap text-slate-700"
         href="javascript:;"
         target="_blank"
       >
@@ -25,11 +26,11 @@
     </div>
 
     <hr
-      class="h-px mt-0 bg-transparent bg-gradient-to-r from-transparent via-black/40 to-transparent"
+      class="h-px mt-0   "
     />
 
-    <div class="items-center block w-auto h-full overflow-auto grow basis-full">
-      <ul class="flex flex-col pl-0 mb-0">
+    <div class="items-center block w-auto overflow-hidden grow basis-full bg-slate-50">
+      <ul class="flex flex-col pl-0 mb-0 bg-slate-50">
         <li class="w-full mt-4">
           <h6 class="pl-6 ml-2 text-xs font-bold leading-tight uppercase opacity-60">
             DashBoard
@@ -102,13 +103,13 @@
         </li>
         <li class="mt-0.5 w-full">
           <siderbarItem
-            :title="'Gestion des Contenus '"
+            :title="'Gestion de Contenus'"
             :isSelected="optSelected == 4"
             @click="$emit('selectOption', 4)"
           >
             <template #icon>
               <i
-                class="leading-none fa fa-circle-question text-lg text-white"
+                class="leading-none fa-solid fa-magnifying-glass-chart text-lg text-white"
                 aria-hidden="true"
               ></i>
             </template>
@@ -143,7 +144,7 @@
           >
             <template #icon>
               <i
-                class="leading-none fa fa-exclamation text-lg text-white"
+                class="leading-none fa fa-comments text-lg text-white"
                 aria-hidden="true"
               ></i
             ></template>
@@ -162,7 +163,7 @@
           >
             <template #icon>
               <i
-                class="leading-none fa fa-exclamation text-lg text-white"
+                class="leading-none fa fa-gear text-lg text-white"
                 aria-hidden="true"
               ></i
             ></template>
@@ -185,7 +186,7 @@
       </ul>
     </div>
   </aside>
-
+</section>
   <!-- end sidenav -->
 </template>
 
