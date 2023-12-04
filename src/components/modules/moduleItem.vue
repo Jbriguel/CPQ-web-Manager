@@ -6,7 +6,7 @@
                 class="relative flex flex-col p-2 min-w-0 break-words bg-white border-0 shadow-md rounded-xl bg-clip-border"
               >
                 <div class="  h-40 overflow-hidden bg-cover rounded-xl"
-            style="background-image: url('./src/assets/img/ivancik.jpg')"> 
+            style="background-image: url('../../assets/img/ivancik.jpg')"> 
                    
                 </div>
                 <div class="flex-auto px-1 pt-6">
