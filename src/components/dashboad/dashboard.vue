@@ -90,7 +90,7 @@
         >
           <div
             class="relative h-full overflow-hidden bg-cover rounded-xl"
-            style="background-image: url('../../src/assets/img/ivancik.jpg')"
+            style="background-image: url('@/src/assets/img/ivancik.jpg')"
           >
             <span
               class="absolute top-0 left-0 w-full h-full bg-center bg-cover bg-gradient-to-tl from-gray-900 to-slate-800 opacity-80"

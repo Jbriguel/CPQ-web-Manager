@@ -11,7 +11,7 @@
         </div>
         <div class="flex-auto p-4">
           <div class="flex flex-wrap -mx-3">
-            <div
+            <!--<div
               class="w-full max-w-full px-3 mb-6 md:w-6/12 md:flex-none xl:mb-0 xl:w-3/12"
             >
               <div
@@ -24,10 +24,11 @@
                   </a>
                 </div>
               </div>
-            </div>
+            </div>-->
 
             <moduleItemVue/>
             <moduleItemVue/>
+            <moduleItemVue/> 
             <moduleItemVue/> 
           </div>
         </div>

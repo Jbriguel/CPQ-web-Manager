@@ -5,10 +5,11 @@
               <div
                 class="relative flex flex-col p-2 min-w-0 break-words bg-white border-0 shadow-md rounded-xl bg-clip-border"
               >
-                <div class="  h-40 overflow-hidden bg-cover rounded-xl"
-            style="background-image: url('../../assets/img/ivancik.jpg')"> 
-                   
-                </div>
+              <img
+                            src="../../assets/img/ivancik.jpg"
+                            class=" h-40 overflow-auto bg-cover rounded-xl"
+                            alt="background-image"
+                          /> 
                 <div class="flex-auto px-1 pt-6">
                   <p
                     class="relative z-10 mb-2 leading-normal text-transparent bg-gradient-to-tl from-gray-900 to-slate-800 text-sm bg-clip-text"
