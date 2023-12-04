@@ -50,10 +50,11 @@
     </nav>
     <div class="text-right m-1 px-5">
       <div class="inline-flex items-end px-5">
+        <a href="/addUser">
         <button class="bg-blue-500 hover:bg-blue-700 text-white py-1 px-4 rounded">
           <i class="p-2 fa fa-add text-slate-50"></i>
           Nouvel utilisateur
-        </button>
+        </button></a>
       </div>
     </div>
 
